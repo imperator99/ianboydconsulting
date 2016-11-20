@@ -1,0 +1,13 @@
+// top-menu
+
+#top-menu {
+	@include flex-grid-row();
+	@include flex-grid-column();
+	margin: $global-margin 0;
+	ul {
+		@include menu-base;
+		@include menu-expand;
+		@include menu-icons;
+		text-align: center;
+	}
+}

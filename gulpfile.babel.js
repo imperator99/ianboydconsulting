@@ -97,7 +97,7 @@ function sass() {
 function javascript() {
   return gulp.src(PATHS.javascript)
     .pipe($.sourcemaps.init())
-    .pipe($.babel())
+    //.pipe($.babel())
     .pipe($.concat('app.js'))
     .pipe($.if(PRODUCTION, $.uglify()
       .on('error', e => { console.log(e); })
@@ -119,7 +119,11 @@ function images() {
 // Start a server with BrowserSync to preview the site in
 function server(done) {
   browser.init({
-    server: PATHS.dist, port: PORT
+    files: [ PATHS.dist + '/assets/css/*', PATHS.dist + '/assets/js/*'],
+    server: {
+      baseDir: PATHS.dist,
+      port: PORT
+    }
   });
   done();
 }
