@@ -1,13 +1,23 @@
 // top-menu
 
+#top-menu-wrapper {
+	margin: $global-margin;
+	@include flex-grid-row(collapse);
+	@include flex-grid-column();	
+	transition: all, 0.2s, ease-in;
+}
+
 #top-menu {
-	@include flex-grid-row();
-	@include flex-grid-column();
-	margin: $global-margin 0;
+	background-color: rgba($white, 0.7);
+	transition: all, 0.4s, ease-in;
 	ul {
 		@include menu-base;
 		@include menu-expand;
 		@include menu-icons;
 		text-align: center;
 	}
+}
+
+.is-stuck {
+	box-shadow: 0px 3px 14px #000000;
 }

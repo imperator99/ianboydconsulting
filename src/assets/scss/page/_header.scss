@@ -1,0 +1,11 @@
+// header
+
+header {
+	@include flex-grid-row();
+	@include flex-grid-column();
+}
+
+.title-wrapper {
+	margin: $global-margin 0;
+	width: 100%;
+}

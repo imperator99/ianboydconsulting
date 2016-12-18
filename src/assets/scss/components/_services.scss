@@ -1,0 +1,19 @@
+// Services
+
+.services-wrapper {
+	@include flex-grid-layout(1, '.service');
+	@include flex-grid-row();
+	.service {
+		padding: $global-padding / 2;
+		&:last-child:nth-child(odd) {
+			flex-basis: 100%;
+			max-width: 100%;
+		}
+	}
+}
+
+@include breakpoint(medium) {
+	.services-wrapper {
+		@include flex-grid-layout(2, '.service');
+	}
+}
