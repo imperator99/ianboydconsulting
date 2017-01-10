@@ -1,0 +1,18 @@
+// #contact
+
+#contact {
+	.contact-wrapper {
+		@include flex-grid-row();
+		@include flex-grid-layout(2, 'p');
+		@include breakpoint(medium) {
+			@include flex-grid-layout(3, 'p');
+			p:last-child:nth-child(even) {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		@include breakpoint(large) {
+			@include flex-grid-layout(4, 'p');
+		}
+	}
+}
