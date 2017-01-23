@@ -1,6 +1,7 @@
 // #biography
 
 #biography {
+	background: linear-gradient(to bottom, $bg-dark-gold 0%, darken($bg-dark-gold, 10%) 100%);;
 	.profile-image {
 		float: left;
 		margin: 0 $global-margin $global-margin 0;

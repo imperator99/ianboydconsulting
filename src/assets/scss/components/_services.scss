@@ -1,5 +1,9 @@
 // Services
 
+#services {
+	background: linear-gradient(to bottom, $bg-blue 0%, darken($bg-blue, 10%) 100%);;
+}
+
 .services-wrapper {
 	@include flex-grid-layout(1, '.service');
 	@include flex-grid-row();

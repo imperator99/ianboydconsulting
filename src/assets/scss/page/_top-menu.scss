@@ -15,6 +15,9 @@
 		@include menu-expand;
 		@include menu-icons;
 		text-align: center;
+		li {
+			font-weight: bold;
+		}
 	}
 }
 

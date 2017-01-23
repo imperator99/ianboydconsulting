@@ -1,9 +1,10 @@
 // #contact
 
 #contact {
+	background: linear-gradient(to bottom, $bg-grey-blue 0%, darken($bg-grey-blue, 10%) 100%);;
 	.contact-wrapper {
 		@include flex-grid-row();
-		@include flex-grid-layout(2, 'p');
+		@include flex-grid-layout(1, 'p');
 		@include breakpoint(medium) {
 			@include flex-grid-layout(3, 'p');
 			p:last-child:nth-child(even) {
