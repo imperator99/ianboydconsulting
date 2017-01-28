@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- TemplateBeginEditable name="Head" -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ian Boyd Consulting - Services</title>
+<link href="../twoColElsLtHdr.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLtHdr #sidebar1 { padding-top: 30px; }
+.twoColElsLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+.twoColElsLtHdr #mainContent { left: 191px; }
+</style>
+<![endif]-->
+<!-- TemplateEndEditable -->
+</head>
+<body class="twoColElsLtHdr">
+<div id="container">
+  <div id="header">
+    <div id="siteImage"><img src="../images/siteImage.gif" alt="Image of Pills" width="190" height="142" /></div>
+    <h1 class="siteHeading">ian boyd consulting<span class="siteHeadingTail">.com.au</span></h1>
+    <h2 class="siteHeadingTagLine">Providing pharmacovigilance expertise</h2>
+    <!-- end #header -->
+  </div>
+  
+  <div id="blackLine"></div>
+  <div id="sidebar1">
+    <p><a href="/index.html">services</a></p>
+    <p><a href="../biography/default.html">biography</a></p>
+    <p><a href="../publications/default.html">publications</a></p>
+    <p><a href="../contact/default.html">contact</a></p>
+    <!-- TemplateBeginEditable name="Page Image" -->
+    <div id="image"><img src="/~jessepenny/projects/ibc/images/servicesImage.jpg" alt="Image of a form" width="190" height="143" /></div>
+    <!-- TemplateEndEditable --></div>
+  <!-- TemplateBeginEditable name="Main Body" -->
+  <div id="mainContent">
+    <h1> Services</h1>
+    <p>Ian Boyd Consulting can assist in all aspects of  pharmacovigilance and drug safety including</p>
+    <blockquote>
+      <p>Signal detection<br />
+        Signal evaluation<br />
+        Risk management/pharmacovigilance plans<br />
+        Periodic Safety Update Reports (PSURs)<br />
+        Safety labelling/product information/SPC reviews <br />
+        Development of core safety information<br />
+        Review of safety issues<br />
+        Pharmacovigilance training</p>
+    </blockquote>
+    <!-- end #mainContent -->
+  </div>
+  <!-- TemplateEndEditable -->
+  <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
+  <br class="clearfloat" />
+  <div id="footer">
+    <p class="footer">&copy; 2015 Ian Boyd Consulting | ABN 19 968 328 424 | p/f +61 2 4455 4136 | <a href="mailto:ian@ianboydconsulting.com.au">ian@ianboydconsulting.com.au</a></p>
+    <!-- end #footer -->
+  </div>
+  <!-- end #container -->
+</div>
+</body>
+</html>
